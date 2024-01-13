@@ -1,0 +1,17 @@
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/obj/Debug/net8.0/HorseMoney.Infrastructure.csproj.AssemblyReference.cache
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/obj/Debug/net8.0/HorseMoney.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/obj/Debug/net8.0/HorseMoney.Infrastructure.AssemblyInfoInputs.cache
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/obj/Debug/net8.0/HorseMoney.Infrastructure.AssemblyInfo.cs
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/obj/Debug/net8.0/HorseMoney.Infrastructure.csproj.CoreCompileInputs.cache
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/bin/Debug/net8.0/HorseMoney.Infrastructure.deps.json
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/bin/Debug/net8.0/HorseMoney.Infrastructure.runtimeconfig.json
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/bin/Debug/net8.0/HorseMoney.Infrastructure.dll
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/bin/Debug/net8.0/HorseMoney.Infrastructure.pdb
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/bin/Debug/net8.0/HorseMoney.Domain.dll
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/bin/Debug/net8.0/HorseMoney.Domain.pdb
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/obj/Debug/net8.0/HorseMoney.Infrastructure.csproj.CopyComplete
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/obj/Debug/net8.0/HorseMoney.Infrastructure.dll
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/obj/Debug/net8.0/refint/HorseMoney.Infrastructure.dll
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/obj/Debug/net8.0/HorseMoney.Infrastructure.pdb
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/obj/Debug/net8.0/HorseMoney.Infrastructure.genruntimeconfig.cache
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/obj/Debug/net8.0/ref/HorseMoney.Infrastructure.dll
