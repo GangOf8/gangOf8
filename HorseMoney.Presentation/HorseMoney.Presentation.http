@@ -1,0 +1,6 @@
+@HorseMoney.Presentation_HostAddress = http://localhost:5036
+
+GET {{HorseMoney.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

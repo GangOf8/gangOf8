@@ -1,0 +1,11 @@
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/bin/Debug/net8.0/HorseMoney.Domain.deps.json
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/bin/Debug/net8.0/HorseMoney.Domain.dll
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/bin/Debug/net8.0/HorseMoney.Domain.pdb
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/obj/Debug/net8.0/HorseMoney.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/obj/Debug/net8.0/HorseMoney.Domain.AssemblyInfoInputs.cache
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/obj/Debug/net8.0/HorseMoney.Domain.AssemblyInfo.cs
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/obj/Debug/net8.0/HorseMoney.Domain.csproj.CoreCompileInputs.cache
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/obj/Debug/net8.0/HorseMoney.Domain.dll
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/obj/Debug/net8.0/refint/HorseMoney.Domain.dll
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/obj/Debug/net8.0/HorseMoney.Domain.pdb
+/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/obj/Debug/net8.0/ref/HorseMoney.Domain.dll
