@@ -1,31 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/home/jaum/RiderProjects/HorseMoney/Domain.UnitTests/Domain.UnitTests.csproj": {}
+    "C:\\Users\\tutor\\gangOf8\\gangOf8\\Domain.UnitTests\\Domain.UnitTests.csproj": {}
   },
   "projects": {
-    "/home/jaum/RiderProjects/HorseMoney/Domain.UnitTests/Domain.UnitTests.csproj": {
+    "C:\\Users\\tutor\\gangOf8\\gangOf8\\Domain.UnitTests\\Domain.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jaum/RiderProjects/HorseMoney/Domain.UnitTests/Domain.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\tutor\\gangOf8\\gangOf8\\Domain.UnitTests\\Domain.UnitTests.csproj",
         "projectName": "Domain.UnitTests",
-        "projectPath": "/home/jaum/RiderProjects/HorseMoney/Domain.UnitTests/Domain.UnitTests.csproj",
-        "packagesPath": "/home/jaum/.nuget/packages/",
-        "outputPath": "/home/jaum/RiderProjects/HorseMoney/Domain.UnitTests/obj/",
+        "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\Domain.UnitTests\\Domain.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\tutor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\Domain.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jaum/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\tutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Application\\HorseMoney.Application.csproj": {
+                "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Application\\HorseMoney.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -38,9 +44,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.6.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "NUnit": {
               "target": "Package",
@@ -75,7 +89,245 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Application\\HorseMoney.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Application\\HorseMoney.Application.csproj",
+        "projectName": "HorseMoney.Application",
+        "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Application\\HorseMoney.Application.csproj",
+        "packagesPath": "C:\\Users\\tutor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj": {
+                "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj"
+              },
+              "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Infrastructure\\HorseMoney.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Infrastructure\\HorseMoney.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
+        "projectName": "HorseMoney.Domain",
+        "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
+        "packagesPath": "C:\\Users\\tutor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Infrastructure\\HorseMoney.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Infrastructure\\HorseMoney.Infrastructure.csproj",
+        "projectName": "HorseMoney.Infrastructure",
+        "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Infrastructure\\HorseMoney.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\tutor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj": {
+                "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

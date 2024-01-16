@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "KVsF+uj4Iivr0aWYH3RVU+haUOG6QanfCp3acixrCpg+D450FNrTSZqdGO4fjXnLbE9gJI7mAnSIpHkmetkUqA==",
+  "dgSpecHash": "Oy9Tr6MHfZM0wMgYp70KHcYwbVsOfTmh7BcRN6zNxy0HiJDy5rZgL7gukSHz/n8mXec7HsiH/DfQllnd1fLI2w==",
   "success": true,
-  "projectFilePath": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/HorseMoney.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tutor\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\tutor\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512"
+  ],
   "logs": []
 }
