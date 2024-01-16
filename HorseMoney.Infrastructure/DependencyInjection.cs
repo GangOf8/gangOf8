@@ -2,6 +2,7 @@
 using HorseMoney.Domain.Interfaces;
 using HorseMoney.Infrastructure.Data;
 using HorseMoney.Infrastructure.Identity;
+using HorseMoney.Infrastructure.Repository.WalletRepository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 
@@ -17,7 +18,6 @@ public static class DependencyInjection
         IConfiguration configuration)
     {
         
-  
         var connectionString = configuration.GetConnectionString("DefaultConnection");
 
         services.AddDbContext<ApplicationDbContext>((sp, options) =>
@@ -28,9 +28,7 @@ public static class DependencyInjection
 
         });
         
-        
         services.AddHttpContextAccessor();
-        
         
         services.AddAuthentication(options =>
             {
@@ -47,15 +45,11 @@ public static class DependencyInjection
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders().AddApiEndpoints();;
         
-
         services.AddScoped<SignInManager<ApplicationUser>>();
         services.AddTransient<IEmailSender, EmailSender>();
         services.AddCascadingAuthenticationState();
-       
 
-
- 
-        
+        services.AddScoped<IWalletRepository, WalletRepository>();
 
         return services;
     }

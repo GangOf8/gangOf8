@@ -1,5 +1,6 @@
 using System.Reflection;
 using HorseMoney.Application.Account;
+using HorseMoney.Application.UseCase.WalletCase;
 using HorseMoney.Domain.Interfaces;
 using HorseMoney.Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
@@ -14,10 +15,11 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
- 
-       
-     
+
+
+        services.AddScoped<ICreateWalletUseCase, CreateWalletUseCase>();
 
         return services;
+
     }
 }

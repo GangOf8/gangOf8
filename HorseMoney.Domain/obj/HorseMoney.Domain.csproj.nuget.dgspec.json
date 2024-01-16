@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/HorseMoney.Domain.csproj": {}
+    "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj": {}
   },
   "projects": {
-    "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/HorseMoney.Domain.csproj": {
+    "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/HorseMoney.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
         "projectName": "HorseMoney.Domain",
-        "projectPath": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/HorseMoney.Domain.csproj",
-        "packagesPath": "/home/jaum/.nuget/packages/",
-        "outputPath": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/obj/",
+        "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
+        "packagesPath": "C:\\Users\\tutor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jaum/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\tutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
