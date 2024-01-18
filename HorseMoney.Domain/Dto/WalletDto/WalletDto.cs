@@ -2,7 +2,7 @@
 
 namespace HorseMoney.Application.Dto.WalletDto
 {
-    public record WalletCreateDto
+    public record WalletDto
     {
         [Required] public string Name;
     }

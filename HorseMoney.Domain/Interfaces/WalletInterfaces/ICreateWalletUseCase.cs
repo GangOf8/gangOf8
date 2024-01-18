@@ -4,7 +4,7 @@ using HorseMoney.Domain.UseCase;
 
 namespace HorseMoney.Application.UseCase.WalletCase
 {
-    public interface ICreateWalletUseCase : IUseCaseBase<WalletCreateDto, BasicResult>
+    public interface ICreateWalletUseCase : IUseCaseBase<WalletDto, BasicResult>
     {
     }
 

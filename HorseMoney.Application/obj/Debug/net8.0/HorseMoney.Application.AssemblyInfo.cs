@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HorseMoney.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98dd661f918ea5697fd6a22b65a731f375e63788")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c718d7d9718915c0ef67961576f232495d703f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("HorseMoney.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HorseMoney.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
