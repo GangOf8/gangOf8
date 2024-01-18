@@ -1,17 +1,12 @@
-﻿namespace HorseMoney.Domain.Interfaces
+﻿namespace HorseMoney.Domain.UseCase
 {
     /// <summary>
-    /// Codigo gerado para ser implementado nas interfaces dos UseCase, sendo assim uma abstração geral do codigo 
+    /// gfefefe
     /// </summary>
     /// <typeparam name="TInput"></typeparam>
     /// <typeparam name="TOutput"></typeparam>
     public interface IUseCaseBase<TInput, TOutput>
     {
-        /// <summary>
-        /// Isso é o inicio de tudo
-        /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
         Task<TOutput> Execute(TInput input);
     }
 }

@@ -9,7 +9,7 @@ namespace Domain.UnitTests.WalletTest.Common
 {
     public class WalletConstants
     {
-        public static WalletCreateDto VALID_WALLET_CREATE_DTO = new WalletCreateDto()
+        public static WalletDto VALID_WALLET_CREATE_DTO = new WalletDto()
         {
             Name = "VALID WALLET NAME"
         };
