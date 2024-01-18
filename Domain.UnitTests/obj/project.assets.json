@@ -2957,32 +2957,39 @@
     ]
   },
   "packageFolders": {
-    "/home/jaum/.nuget/packages/": {}
+    "C:\\Users\\Akio\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jaum/RiderProjects/HorseMoney/Domain.UnitTests/Domain.UnitTests.csproj",
+      "projectUniqueName": "E:\\DEV\\Chorume\\gangOf8\\Domain.UnitTests\\Domain.UnitTests.csproj",
       "projectName": "Domain.UnitTests",
-      "projectPath": "/home/jaum/RiderProjects/HorseMoney/Domain.UnitTests/Domain.UnitTests.csproj",
-      "packagesPath": "/home/jaum/.nuget/packages/",
-      "outputPath": "/home/jaum/RiderProjects/HorseMoney/Domain.UnitTests/obj/",
+      "projectPath": "E:\\DEV\\Chorume\\gangOf8\\Domain.UnitTests\\Domain.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\Akio\\.nuget\\packages\\",
+      "outputPath": "E:\\DEV\\Chorume\\gangOf8\\Domain.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/jaum/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Akio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Application/HorseMoney.Application.csproj": {
-              "projectPath": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Application/HorseMoney.Application.csproj"
+            "E:\\DEV\\Chorume\\gangOf8\\HorseMoney.Application\\HorseMoney.Application.csproj": {
+              "projectPath": "E:\\DEV\\Chorume\\gangOf8\\HorseMoney.Application\\HorseMoney.Application.csproj"
             }
           }
         }
@@ -3042,7 +3049,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,5 +1,4 @@
-﻿using HorseMoney.Application.Dto.WalletDto;
-using HorseMoney.Domain.Common;
+﻿using HorseMoney.Domain.Common;
 using HorseMoney.Domain.Dto.WalletDto;
 using HorseMoney.Domain.Interfaces.Wallet;
 using HorseMoney.Domain.Interfaces.WalletInterfaces;

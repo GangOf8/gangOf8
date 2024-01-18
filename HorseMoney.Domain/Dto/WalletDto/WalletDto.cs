@@ -1,9 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace HorseMoney.Application.Dto.WalletDto
+﻿namespace HorseMoney.Domain.Dto.WalletDto
 {
-    public record WalletDto
-    {
-        [Required] public string Name;
-    }
+    public record WalletDto(string Name);
 }

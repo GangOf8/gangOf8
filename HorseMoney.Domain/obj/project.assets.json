@@ -61,24 +61,31 @@
     ]
   },
   "packageFolders": {
-    "/home/jaum/.nuget/packages/": {}
+    "C:\\Users\\Akio\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/HorseMoney.Domain.csproj",
+      "projectUniqueName": "E:\\DEV\\Chorume\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
       "projectName": "HorseMoney.Domain",
-      "projectPath": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/HorseMoney.Domain.csproj",
-      "packagesPath": "/home/jaum/.nuget/packages/",
-      "outputPath": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/obj/",
+      "projectPath": "E:\\DEV\\Chorume\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
+      "packagesPath": "C:\\Users\\Akio\\.nuget\\packages\\",
+      "outputPath": "E:\\DEV\\Chorume\\gangOf8\\HorseMoney.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/jaum/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Akio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -118,7 +125,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

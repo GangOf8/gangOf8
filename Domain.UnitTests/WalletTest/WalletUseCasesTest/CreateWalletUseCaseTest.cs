@@ -1,10 +1,4 @@
-﻿using HorseMoney.Application.Dto.WalletDto;
-using HorseMoney.Infrastructure.Repository.WalletRepository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HorseMoney.Infrastructure.Repository.WalletRepository;
 using Moq;
 using HorseMoney.Domain.Entities;
 using HorseMoney.Application.UseCase.WalletCase;
@@ -12,7 +6,6 @@ using Domain.UnitTests.WalletTest.Common;
 
 namespace Domain.UnitTests.WalletTest.WalletUseCasesTest
 {
-  
     public class CreateWalletUseCaseTest
     {
         [Test]

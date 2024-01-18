@@ -1,10 +1,10 @@
-﻿using HorseMoney.Application.Dto.WalletDto;
-using HorseMoney.Domain.Common;
+﻿using HorseMoney.Domain.Common;
 using HorseMoney.Domain.Entities;
 using HorseMoney.Domain.Interfaces.Wallet;
 using HorseMoney.Infrastructure.Repository.WalletRepository;
 using Mapster;
 using System.Net;
+using HorseMoney.Domain.Dto.WalletDto;
 using HorseMoney.Domain.Interfaces.WalletInterfaces;
 
 namespace HorseMoney.Application.UseCase.WalletCase

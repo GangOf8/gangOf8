@@ -1,9 +1,8 @@
-﻿using HorseMoney.Application.Dto.WalletDto;
-using HorseMoney.Application.UseCase.WalletCase;
-using HorseMoney.Domain.Common;
+﻿using HorseMoney.Domain.Common;
 using HorseMoney.Presentation.Abstractions;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using HorseMoney.Domain.Dto.WalletDto;
 using HorseMoney.Domain.Interfaces.Wallet;
 
 namespace HorseMoney.Presentation.Controllers
