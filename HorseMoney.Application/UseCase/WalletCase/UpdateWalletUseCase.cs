@@ -4,7 +4,7 @@ using HorseMoney.Domain.Dto.WalletDto;
 using HorseMoney.Domain.Entities;
 using HorseMoney.Domain.Interfaces.Wallet;
 using HorseMoney.Domain.Interfaces.WalletInterfaces;
-using HorseMoney.Domain.UseCase;
+using HorseMoney.Domain;
 using HorseMoney.Infrastructure.Repository.WalletRepository;
 using Mapster;
 using System.Net;

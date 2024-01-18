@@ -1,4 +1,5 @@
 ﻿using HorseMoney.Domain.Entities;
+using HorseMoney.Domain.Interfaces;
 using HorseMoney.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,16 +7,24 @@ namespace HorseMoney.Infrastructure.Repository
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
     {
+        #region Properties
 
         private readonly ApplicationDbContext _dbContext;
 
-        public BaseRepository(ApplicationDbContext dbContext) {
+        #endregion Properties
+
+        #region Constructors
+
+        public BaseRepository(ApplicationDbContext dbContext)
+        {
             _dbContext = dbContext;
         }
 
+        #endregion Constructors
+
         public async Task Add(T entity)
         {
-             _dbContext
+            _dbContext
                 .Set<T>()
                 .Add(entity);
 
@@ -28,7 +37,10 @@ namespace HorseMoney.Infrastructure.Repository
                 .Set<T>()
                 .FindAsync(id);
 
-            if (entity == null) return;
+            if (entity == null)
+            {
+                return;
+            }
 
             entity.IsDeleted = true;
 
@@ -44,7 +56,7 @@ namespace HorseMoney.Infrastructure.Repository
 
         public async Task<T> Update(T entity)
         {
-             _dbContext
+            _dbContext
                 .Set<T>()
                 .Update(entity);
 

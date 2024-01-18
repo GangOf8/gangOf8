@@ -5,6 +5,7 @@ using HorseMoney.Domain.Interfaces.Wallet;
 using HorseMoney.Infrastructure.Repository.WalletRepository;
 using Mapster;
 using System.Net;
+using HorseMoney.Domain.Interfaces.WalletInterfaces;
 
 namespace HorseMoney.Application.UseCase.WalletCase
 {

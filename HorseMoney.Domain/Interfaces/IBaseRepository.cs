@@ -1,6 +1,5 @@
-﻿namespace HorseMoney.Infrastructure.Repository
+﻿namespace HorseMoney.Domain.Interfaces
 {
-    
     public interface IBaseRepository<T>
     {
         Task<T?> GetById(Guid id);

@@ -15,16 +15,17 @@ public class AccountService : IAccountService
     private readonly SignInManager<ApplicationUser> _signInManager;
     private readonly IConfiguration _configuration;
     private readonly IEmailSender _emailSender;
-    public AccountService(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IConfiguration configuration, IEmailSender emailSender)
+
+    public AccountService(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager,
+        IConfiguration configuration, IEmailSender emailSender)
     {
         _userManager = userManager;
         _signInManager = signInManager;
         _configuration = configuration;
         _emailSender = emailSender;
     }
-    
-    
-    public async Task<(Result Result, string UserId)>  RegisterAsync(IRegisterModel model)
+
+    public async Task<(Result Result, string UserId)> RegisterAsync(IRegisterModel model)
     {
         var user = new ApplicationUser
         {
@@ -34,7 +35,7 @@ public class AccountService : IAccountService
 
         var result = await _userManager.CreateAsync(user, model.Password);
 
-        
+
         // if (result.Succeeded)
         // {
         //     var emailConfirmationToken = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -44,12 +45,7 @@ public class AccountService : IAccountService
         //     
         //     await _emailSender.SendEmailAsync(user.Email, "Confirme seu e-mail", $"Por favor, confirme seu e-mail clicando neste link: {confirmationLink}");
         // }
-        
+
         return (result.ToApplicationResult(), user.Id);
     }
-
-   
 }
-    
-    
-    
