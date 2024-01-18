@@ -252,3 +252,13 @@ C:\Users\tutor\gangOf8\gangOf8\Domain.UnitTests\bin\Debug\net8.0\HorseMoney.Infr
 C:\Users\tutor\gangOf8\gangOf8\Domain.UnitTests\bin\Debug\net8.0\HorseMoney.Application.pdb
 C:\Users\tutor\gangOf8\gangOf8\Domain.UnitTests\bin\Debug\net8.0\HorseMoney.Domain.pdb
 C:\Users\tutor\gangOf8\gangOf8\Domain.UnitTests\bin\Debug\net8.0\HorseMoney.Infrastructure.pdb
+C:\Users\Sr.Osama\Documents\ProjetoChorume\gangOf8\Domain.UnitTests\bin\Debug\net8.0\CoverletSourceRootsMapping_Domain.UnitTests
+C:\Users\Sr.Osama\Documents\ProjetoChorume\gangOf8\Domain.UnitTests\obj\Debug\net8.0\Domain.UnitTests.csproj.AssemblyReference.cache
+C:\Users\Sr.Osama\Documents\ProjetoChorume\gangOf8\Domain.UnitTests\obj\Debug\net8.0\Domain.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sr.Osama\Documents\ProjetoChorume\gangOf8\Domain.UnitTests\obj\Debug\net8.0\Domain.UnitTests.AssemblyInfoInputs.cache
+C:\Users\Sr.Osama\Documents\ProjetoChorume\gangOf8\Domain.UnitTests\obj\Debug\net8.0\Domain.UnitTests.AssemblyInfo.cs
+C:\Users\Sr.Osama\Documents\ProjetoChorume\gangOf8\Domain.UnitTests\obj\Debug\net8.0\Domain.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Sr.Osama\Documents\ProjetoChorume\gangOf8\Domain.UnitTests\obj\Debug\net8.0\Domain.UnitTests.sourcelink.json
+C:\Users\Sr.Osama\Documents\ProjetoChorume\gangOf8\Domain.UnitTests\obj\Debug\net8.0\Domain.UnitTests.dll
+C:\Users\Sr.Osama\Documents\ProjetoChorume\gangOf8\Domain.UnitTests\obj\Debug\net8.0\refint\Domain.UnitTests.dll
+C:\Users\Sr.Osama\Documents\ProjetoChorume\gangOf8\Domain.UnitTests\obj\Debug\net8.0\Domain.UnitTests.pdb

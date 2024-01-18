@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using HorseMoney.Infrastructure.Identity;
-using System.Reflection.Emit;
 using System.Linq.Expressions;
 
 namespace HorseMoney.Infrastructure.Data;

@@ -15,4 +15,16 @@
       <ProjectReference Include="..\HorseMoney.Infrastructure\HorseMoney.Infrastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="UseCase\IncomeCase\CreateIncomeUseCase\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="UseCase\IncomeCase\CreateIncomeUseCase\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="UseCase\IncomeCase\CreateIncomeUseCase\**" />
+    </ItemGroup>
+
 </Project>

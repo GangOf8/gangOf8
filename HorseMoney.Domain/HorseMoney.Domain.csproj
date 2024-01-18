@@ -10,4 +10,16 @@
       <PackageReference Include="Mapster" Version="7.4.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Interfaces\Wallet\Income\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Interfaces\Wallet\Income\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Interfaces\Wallet\Income\**" />
+    </ItemGroup>
+
 </Project>

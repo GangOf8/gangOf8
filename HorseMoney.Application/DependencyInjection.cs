@@ -1,24 +1,17 @@
-using System.Reflection;
-using HorseMoney.Application.Account;
+using HorseMoney.Application.UseCase.IncomeCase;
 using HorseMoney.Application.UseCase.WalletCase;
-using HorseMoney.Domain.Interfaces;
-using HorseMoney.Infrastructure.Identity;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection.Email;
-using IEmailSender = Microsoft.AspNetCore.Identity.UI.Services.IEmailSender;
+using HorseMoney.Domain.Interfaces.IIncome;
+using Microsoft.Extensions.DependencyInjection;
 
-
-namespace Microsoft.Extensions.DependencyInjection;
+namespace HorseMoney.Application;
 
 public static class DependencyInjection
 {
     public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
-
-
         services.AddScoped<ICreateWalletUseCase, CreateWalletUseCase>();
-
+        services.AddScoped<ICreateIncomeUseCase, CreateIncomeUseCase>();
+        
         return services;
 
     }

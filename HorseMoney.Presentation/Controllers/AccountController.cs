@@ -44,14 +44,14 @@ namespace HorseMoney.Presentation.Controllers
         [HttpPost("forgotpassword")]
         public async Task<IActionResult> ForgotPassword()
         {
-           
+            
             return Ok();
         }
         
         [HttpPost("resetpassword")]
         public async Task<IActionResult> ResetPassword()
         {
-          
+            
             return Ok();
         }
         

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj": {}
+    "C:\\Users\\Sr.Osama\\Documents\\ProjetoChorume\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj": {
+    "C:\\Users\\Sr.Osama\\Documents\\ProjetoChorume\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Sr.Osama\\Documents\\ProjetoChorume\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
         "projectName": "HorseMoney.Domain",
-        "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
-        "packagesPath": "C:\\Users\\tutor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Sr.Osama\\Documents\\ProjetoChorume\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
+        "packagesPath": "C:\\Users\\Sr.Osama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sr.Osama\\Documents\\ProjetoChorume\\gangOf8\\HorseMoney.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sr.Osama\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

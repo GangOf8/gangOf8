@@ -12,7 +12,7 @@ using Domain.UnitTests.WalletTest.Common;
 
 namespace Domain.UnitTests.WalletTest.WalletUseCasesTest
 {
-  
+    
     public class CreateWalletUseCaseTest
     {
         [Test]

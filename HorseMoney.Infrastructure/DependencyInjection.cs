@@ -1,7 +1,9 @@
 
 using HorseMoney.Domain.Interfaces;
+using HorseMoney.Domain.Interfaces.IIncome;
 using HorseMoney.Infrastructure.Data;
 using HorseMoney.Infrastructure.Identity;
+using HorseMoney.Infrastructure.Repository.IncomeRepository;
 using HorseMoney.Infrastructure.Repository.WalletRepository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -37,7 +39,7 @@ public static class DependencyInjection
             })
             .AddBearerToken(IdentityConstants.BearerScheme, options =>
             {
-               
+                
             });
 
         services.AddAuthorizationBuilder();
@@ -50,6 +52,7 @@ public static class DependencyInjection
         services.AddCascadingAuthenticationState();
 
         services.AddScoped<IWalletRepository, WalletRepository>();
+        services.AddScoped<IIncomeRepository, IncomeRepository>();
 
         return services;
     }

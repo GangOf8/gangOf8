@@ -23,4 +23,8 @@
       <ProjectReference Include="..\HorseMoney.Application\HorseMoney.Application.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Include="IncomeTest\IcomeUseCaseTest\CreateIncomeUseCaseTest.cs" />
+    </ItemGroup>
+
 </Project>

@@ -1,0 +1,31 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=71afa60c_002D96dc_002D454e_002D88d0_002D25f2d05f709c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Execute_ShouldCreateWalletSuccessfully" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A3A369E3-434A-4F05-825C-59558C9D5A86::net8.0::Domain.UnitTests.WalletTest.WalletUseCasesTest.CreateWalletUseCaseTest.Execute_ShouldCreateWalletSuccessfully&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7351ac7c_002D81d1_002D4b3c_002Dbb96_002Dc605c1a49d13/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Execute_ShouldCreateIncomeSuccessfully #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A3A369E3-434A-4F05-825C-59558C9D5A86::net8.0::Domain.UnitTests.IncomeTest.IcomeUseCaseTest.CreateIncomeUseCaseTest.Execute_ShouldCreateIncomeSuccessfully&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=944fe262_002Dc973_002D4e82_002Dadcb_002Ddfb7e6c2af92/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Execute_ShouldCreateIncomeSuccessfully #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A3A369E3-434A-4F05-825C-59558C9D5A86::net8.0::Domain.UnitTests.IncomeTest.IcomeUseCaseTest.CreateIncomeUseCaseTest.Execute_ShouldCreateIncomeSuccessfully&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c836e9a9_002D0f9f_002D431f_002D801e_002Dc3bec6536df0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Execute_ShouldCreateWalletSuccessfully #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A3A369E3-434A-4F05-825C-59558C9D5A86::net8.0::Domain.UnitTests.WalletTest.WalletUseCasesTest.CreateWalletUseCaseTest.Execute_ShouldCreateWalletSuccessfully&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d0ed31fd_002De549_002D42b8_002D8269_002D021e916612ff/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateIncomeUseCaseTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A3A369E3-434A-4F05-825C-59558C9D5A86::net8.0::Domain.UnitTests.IncomeTest.IcomeUseCaseTest.CreateIncomeUseCaseTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e66ffabb_002Dc6dc_002D4bb0_002D871c_002Da2bdf7b08d89/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Execute_ShouldCreateIncomeSuccessfully" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A3A369E3-434A-4F05-825C-59558C9D5A86::net8.0::Domain.UnitTests.IncomeTest.IcomeUseCaseTest.CreateIncomeUseCaseTest.Execute_ShouldCreateIncomeSuccessfully&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

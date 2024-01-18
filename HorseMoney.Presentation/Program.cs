@@ -1,3 +1,4 @@
+using HorseMoney.Application;
 using HorseMoney.Application.Account;
 using HorseMoney.Domain.Interfaces;
 using HorseMoney.Infrastructure.Data;
