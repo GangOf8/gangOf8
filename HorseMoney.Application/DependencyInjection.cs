@@ -2,6 +2,7 @@ using System.Reflection;
 using HorseMoney.Application.Account;
 using HorseMoney.Application.UseCase.WalletCase;
 using HorseMoney.Domain.Interfaces;
+using HorseMoney.Domain.Interfaces.Wallet;
 using HorseMoney.Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
