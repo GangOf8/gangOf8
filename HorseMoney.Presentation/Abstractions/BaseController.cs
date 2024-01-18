@@ -30,7 +30,7 @@ namespace HorseMoney.Presentation.Abstractions
             if (basicResult.IsFailure)
             {
                 basicResult.Error.StatusCode = (int)statusCodeError;
-                return StatusCode(basicResult.Error.StatusCode, basicResult.Error);
+                return StatusCode(basicResult.Error.StatusCode, new BaseResponse<Error>(basicResult.Error));
             }
 
             return StatusCode((int)statusCode, responseMessage);
@@ -56,7 +56,7 @@ namespace HorseMoney.Presentation.Abstractions
                 return StatusCode(basicResult.Error.StatusCode, basicResult.Error);
             }
 
-            return StatusCode((int)statusCode, basicResult.Value);
+            return StatusCode((int)statusCode, new BaseResponse<T>(basicResult.Value));
         }
     }
 }
