@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Infrastructure\\HorseMoney.Infrastructure.csproj": {}
+    "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/HorseMoney.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj": {
+    "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/HorseMoney.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
+        "projectUniqueName": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/HorseMoney.Domain.csproj",
         "projectName": "HorseMoney.Domain",
-        "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj",
-        "packagesPath": "C:\\Users\\tutor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\obj\\",
+        "projectPath": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/HorseMoney.Domain.csproj",
+        "packagesPath": "/home/jaum/.nuget/packages/",
+        "outputPath": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/jaum/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,36 +59,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Infrastructure\\HorseMoney.Infrastructure.csproj": {
+    "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/HorseMoney.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Infrastructure\\HorseMoney.Infrastructure.csproj",
+        "projectUniqueName": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/HorseMoney.Infrastructure.csproj",
         "projectName": "HorseMoney.Infrastructure",
-        "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Infrastructure\\HorseMoney.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\tutor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Infrastructure\\obj\\",
+        "projectPath": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/HorseMoney.Infrastructure.csproj",
+        "packagesPath": "/home/jaum/.nuget/packages/",
+        "outputPath": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tutor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/jaum/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj": {
-                "projectPath": "C:\\Users\\tutor\\gangOf8\\gangOf8\\HorseMoney.Domain\\HorseMoney.Domain.csproj"
+              "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/HorseMoney.Domain.csproj": {
+                "projectPath": "/home/jaum/RiderProjects/HorseMoney/HorseMoney.Domain/HorseMoney.Domain.csproj"
               }
             }
           }
@@ -170,7 +166,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
