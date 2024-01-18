@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HorseMoney.Application
-build_property.ProjectDir = E:\DEV\gangOf8\HorseMoney.Application\
+build_property.ProjectDir = /home/jaum/RiderProjects/HorseMoney/HorseMoney.Application/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
